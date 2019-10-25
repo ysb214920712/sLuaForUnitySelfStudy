@@ -1,5 +1,9 @@
 import "UnityEngine"
 
+local ftext = GameObject.Find("Canvas/Text"):GetComponent(UI.Text)
+local f = 0
+local framet = 0
+
 function main()
     print("Lua创建了一个Cube")
     local cube = GameObject.CreatePrimitive(PrimitiveType.Cube)
@@ -35,7 +39,14 @@ function FixedUpdate()
 end
 
 function Update()
-    print("luaUpdate")
+    f = f + 1
+    framet = framet + Time.deltaTime
+    if framet >= 1 then
+        ftext.text = string.format("fps:%d",f)
+        f=0
+        framet = framet - 1
+    end
+    --print("luaUpdate")
 end
 
 function LateUpdate()

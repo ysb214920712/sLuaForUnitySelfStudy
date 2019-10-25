@@ -49,4 +49,12 @@ public class Test : MonoBehaviour{
 
         return buffer;
     }
+
+    void Update()
+    {
+        if(_luaUpdate != null)
+        {
+            _luaUpdate.call();
+        }
+    }
 }

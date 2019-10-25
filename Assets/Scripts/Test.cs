@@ -9,12 +9,27 @@ public class Test : MonoBehaviour{
 
     LuaSvr svr = null;
 
+    private LuaFunction _luaStart = null;
+    private LuaFunction _luaUpdate = null;
+    private LuaFunction _luaLateUpdate = null;
+    private LuaFunction _luaFixedUpdate = null;
+    private LuaFunction _luaAwake = null;
+    private LuaFunction _luaOnDisable = null;
+    private LuaFunction _luaOnDestroy = null;
+
     void Start () {
 		svr = new LuaSvr();// 如果不先进行某个LuaSvr的初始化的话,下面的mianState会爆一个为null的错误..
         LuaSvr.mainState.loaderDelegate += LuasLoader;
 		svr.init(null, () => // 如果不用init方法初始化的话,在Lua中是不能import的
 		{
             svr.start("createCube");
+            _luaAwake = LuaSvr.mainState.getFunction("Awake");
+            _luaStart = LuaSvr.mainState.getFunction("Start");
+            _luaFixedUpdate = LuaSvr.mainState.getFunction("FixedUpdate");
+            _luaUpdate = LuaSvr.mainState.getFunction("Update");
+            _luaLateUpdate = LuaSvr.mainState.getFunction("LateUpdate");
+            _luaOnDisable = LuaSvr.mainState.getFunction("OnDisable");
+            _luaOnDestroy = LuaSvr.mainState.getFunction("OnDestroy");
 		});
 	}
 

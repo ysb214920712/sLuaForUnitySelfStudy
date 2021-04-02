@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E7BF264D-6EA0-17FF-C0B3-A759F74D1F89}</ProjectGuid>
+    <ProjectGuid>{0F8338F6-3F70-4FC6-41F1-DAD817D37ADE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -65,19 +65,19 @@
      <Compile Include="Assets\Assets\Slua\Editor\LuaConsole.cs" />
      <Compile Include="Assets\Assets\Slua\Editor\ModuleSelector.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>E:/Unity3DProject/SLuaTest/sLuaTest/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>E:/Unity3DProject/SLuaTest/sLuaForUnitySelfStudy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>E:/Unity3DProject/SLuaTest/sLuaTest/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>E:/Unity3DProject/SLuaTest/sLuaForUnitySelfStudy/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>E:/Unity3DProject/SLuaTest/sLuaTest/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>E:/Unity3DProject/SLuaTest/sLuaForUnitySelfStudy/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>E:/Unity3DProject/SLuaTest/sLuaTest/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>E:/Unity3DProject/SLuaTest/sLuaForUnitySelfStudy/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>E:/Unity3DProject/SLuaTest/sLuaTest/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>E:/Unity3DProject/SLuaTest/sLuaForUnitySelfStudy/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/Unity/2018.4.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -317,22 +317,22 @@
  <HintPath>D:/Unity/2018.4.11f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="BytesHelper">
- <HintPath>E:/Unity3DProject/SLuaTest/sLuaTest/Assets/Assets/Plugins/Slua_Managed/BytesHelper.dll</HintPath>
+ <HintPath>E:/Unity3DProject/SLuaTest/sLuaForUnitySelfStudy/Assets/Assets/Plugins/Slua_Managed/BytesHelper.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
- <HintPath>E:/Unity3DProject/SLuaTest/sLuaTest/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+ <HintPath>E:/Unity3DProject/SLuaTest/sLuaForUnitySelfStudy/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>E:/Unity3DProject/SLuaTest/sLuaTest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>E:/Unity3DProject/SLuaTest/sLuaForUnitySelfStudy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>E:/Unity3DProject/SLuaTest/sLuaTest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>E:/Unity3DProject/SLuaTest/sLuaForUnitySelfStudy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>E:/Unity3DProject/SLuaTest/sLuaTest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>E:/Unity3DProject/SLuaTest/sLuaForUnitySelfStudy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
- <HintPath>E:/Unity3DProject/SLuaTest/sLuaTest/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+ <HintPath>E:/Unity3DProject/SLuaTest/sLuaForUnitySelfStudy/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>D:/Unity/2018.4.11f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -697,9 +697,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{EBA597EE-7B06-32A8-7D82-8AD5BD58348F}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{65AE5F26-E4D2-05C3-2A02-3924E6F3A167}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{ED71A4E9-5BD1-9A20-CC81-637CF14EFF3A}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
+      <Project>{BB9E51FE-07D2-F308-8629-A91C5CB83481}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
